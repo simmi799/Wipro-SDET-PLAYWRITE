@@ -30,6 +30,14 @@ console.log(table(20));
 // arr.filter(x=> typeof x==="number").map(y =>y*2).forEach(z=> console.log("Elements *2:" , z*2));
 
 
+let strnum = "5";
+console.log(Number(strnum));
+console.log(String(5));
+
+let val = "0.6";
+console.log(parseInt(val)); // 0
+console.log(parseFloat(val));
+
 console.log(Math.random());
 console.log(Math.random() * 100);
 console.log(Math.ceil(4.2)); 
@@ -43,7 +51,9 @@ console.log(parseInt("abc"));
 
 let color= ["green", "red", "blue", "yellow"];
 
-console.log(color.push("orange"));
+color.push("orange");
+console.log(color);
+console.log(color.includes("red"));
 console.log(color.pop());
 console.log(color.shift());
 console.log(color.unshift("purple"));
