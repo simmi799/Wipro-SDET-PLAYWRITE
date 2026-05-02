@@ -9,7 +9,7 @@ function formatGuests(names) {
     let guest = names.map(name => `Guest: ${name}`);
     return guest.join("\n");
 }
-let list = ["Simmi", "Rahul", "Anu" ,"Aaryan"];
+let list = ["Simmi", "Summi", "Kriti" ,"Roy"];
 console.log(formatGuests(list));
 
 
