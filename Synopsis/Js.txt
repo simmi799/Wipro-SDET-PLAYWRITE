@@ -119,3 +119,8 @@ parseInt(x) → converts to integer (removes decimal)
 parseFloat(x) → converts to decimal number
 +x → shortcut to convert string to number
 x + "" → shortcut to convert number to string
+
+reduce() 
+reduce() is used to convert an array into a single value (number, object, etc.).
+
+window.location.href = "app.html"; -> it direct the browser to the another page
