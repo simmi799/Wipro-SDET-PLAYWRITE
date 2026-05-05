@@ -41,3 +41,10 @@ fetch("https://jsonplaceholder.typicode.com/todos")
     .then(data => data.map(d => (d.title = "Aaryan " + d.title)))
     .then(data => console.log(data))
     .catch(error => console.error("Error fetching data:", error));
+
+    fetch("https://dog.ceo/api/breeds/list/all")
+  .then(res => res.json())
+  .then(data => Object.keys(data.message))
+  .then(breeds => breeds.slice(0, 5)) 
+  .then(breeds => console.log("Dog Breeds:", breeds))
+  .catch(err => console.log("Error:", err));
