@@ -132,7 +132,12 @@ A Promise is an object that represents the eventual result of an asynchronous op
 Synchronous (Sync)
  Tasks happen one by one, in order.
  Each task waits for the previous one to finish.
- 
+
 Asynchronous (Async)
  Tasks can run independently without waiting
  The program continues while the task finishes in the background
+
+
+ JSON
+ JSON stands for JavaScript Object Notation. It’s a lightweight, text-based format used to store and exchange data, especially between a server and a web application.
+ JSON.stringify() is a JavaScript method that converts a JavaScript object → JSON string
