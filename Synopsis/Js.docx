@@ -141,3 +141,26 @@ Asynchronous (Async)
  JSON
  JSON stands for JavaScript Object Notation. It’s a lightweight, text-based format used to store and exchange data, especially between a server and a web application.
  JSON.stringify() is a JavaScript method that converts a JavaScript object → JSON string
+ => await and async
+ async without await is allowed, but await without async is not.
+ await works only inside async function
+ await pauses execution until Promise resolves
+async function always returns a Promise
+async = “This function will take time”
+await = “Wait here until result comes”
+
+=>OOP is a way of writing code using objects and classes to organize data and behavior.
+
+Encapsulation => Hiding data and controlling access
+Inheritance => One class gets properties of another
+Polymorphism => Same method, different behavior
+Abstraction => Hide complexity, show only necessary parts
+class → blueprint
+constructor → initialize values
+this → current object
+new → create object
+extends → inheritance
+super → call parent
+
+
+prototype
