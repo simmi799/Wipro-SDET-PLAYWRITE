@@ -34,3 +34,44 @@ const PriyaAccount = new BankAccount();
 PriyaAccount.deposit(500);
 PriyaAccount.withdraw(1000);
 console.log(`Final Balance: ₹${PriyaAccount.getBalance()}`);
+
+
+class BankAccount {
+  #balance = 0;
+
+  constructor(owner) {
+    this.owner = owner;
+  }
+
+  deposit(amount) {
+    if (amount > 0) {
+      this.#balance += amount;
+      console.log(`Deposited ₹${amount}. Balance: ₹${this.#balance}`);
+    } else {
+      console.log("Amount must be positive");
+    }
+  }
+
+  withdraw(amount) {
+    if (amount > 0 && amount <= this.#balance) {
+      this.#balance -= amount;
+      console.log(`Withdrew ₹${amount}. Balance: ₹${this.#balance}`);
+    } else {
+      console.log("Invalid withdrawal amount");
+    }
+  }
+
+  getBalance() {
+    return this.#balance;
+  }
+
+  transfer(amount, targetAccount) {
+    if (amount > 0 && amount <= this.#balance) {
+      this.#balance -= amount;
+      targetAccount.deposit(amount);
+      console.log(`Transferred ₹${amount} to ${targetAccount.owner}`);
+    } else {
+      console.log("Transfer failed");
+    }
+  }
+}
