@@ -16,3 +16,13 @@ function person(name , age){
 }
 person("Simmi", 25);
 person("Aaryan", 22);
+
+// Arrow function
+const add2 = (a,b) => {
+    return a+b;
+}   
+console.log(add2(5,10));
+
+// Single line arrow function
+const add3 = (a,b) => a+b;
+console.log(add3(5,10));

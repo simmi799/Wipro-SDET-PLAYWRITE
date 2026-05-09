@@ -4,7 +4,7 @@ It runs in the browser (like Chrome, Edge)
 
 console.log("Hello, Simmi!");
 
-
+return sends value back.
 let → change allowed, block scope
 var → change allowed, old
 const → no change, block scope
@@ -260,3 +260,15 @@ const employees = [
 ];
 This program is designed to automate payroll processing for employees. It uses a callback function to determine the tax percentage based on the employee’s salary, where salaries greater than 5000 are taxed at 20% and others at 10%.
 The program calculates the tax amount, net salary, and assigns a status of "Premium" or "Standard" to each employee based on their final salary. It also calculates the total net payout for all employees and displays a summary using a template literal. Finally, the processed payroll data is displayed after a 2-second delay using setTimeout to simulate server-side processing.
+
+
+a prototype => it is a mechanism that allows objects to inherit properties and methods from another object.
+
+callback => a function passed into another function
+ to be called later.
+
+Stack : A stack is a data structure that follows
+Hoisting : JavaScript moves declarations to the top before executing code.
+Heap: Heap is a large memory area used to store:
+
+clouser: 
