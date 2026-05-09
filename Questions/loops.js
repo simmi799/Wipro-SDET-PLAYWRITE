@@ -32,11 +32,11 @@ for (let i = 1; i <= 100; i++) {
 console.log("Sum of even numbers from 1 to 100 is:", sum);
 // Sum of all even numbers between 1 and 100 using formula
 
-let n = 50; 
-let a = 2; 
-let l = 100;
-let sum = (n / 2) * (a + l);
-console.log("Sum of even numbers:", sum);
+// let n = 50; 
+// let a = 2; 
+// let l = 100;
+// let sum = (n / 2) * (a + l);
+// console.log("Sum of even numbers:", sum);
 
 
 // Print all prime numbers between 1 and 100.
@@ -67,3 +67,15 @@ for (let num = 2; num <= 100; num++) {
 //         console.log("Too low! Try again.");
 //     }
 // }
+
+let secretNumber = 7;
+let guess = 0;
+
+while (guess !== secretNumber) {
+    guess++;
+    console.log("Guessing number:", guess);
+
+    if (guess === secretNumber) {
+        console.log("Congratulations! You've guessed the secret number:");
+    }
+}
