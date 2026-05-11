@@ -6,7 +6,7 @@ console.log("Hello, Simmi!");
 
 return sends value back.
 let → change allowed, block scope
-var → change allowed, old
+var → change allowed, old function scoped
 const → no change, block scope
 
 String
@@ -271,4 +271,5 @@ Stack : A stack is a data structure that follows
 Hoisting : JavaScript moves declarations to the top before executing code.
 Heap: Heap is a large memory area used to store:
 
-clouser: 
+clouser: A closure in JavaScript happens when an inner function remembers the variables of its outer function even after the outer function has finished executing.
+Closure = Function + Remembered Variable
