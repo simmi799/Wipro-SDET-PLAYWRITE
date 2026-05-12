@@ -273,3 +273,15 @@ Heap: Heap is a large memory area used to store:
 
 clouser: A closure in JavaScript happens when an inner function remembers the variables of its outer function even after the outer function has finished executing.
 Closure = Function + Remembered Variable
+
+
+interface
+
+
+generic
+
+transformation utility
+
+deep partial
+
+uppdate
