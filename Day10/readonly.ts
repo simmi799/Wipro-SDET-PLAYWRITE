@@ -29,4 +29,4 @@ console.log(myTask);
 console.log(myTask1);
 
 const scores: ReadonlyArray<number> = [10, 20, 30];
-console.log(scores[0]);
+console.log(scores[0])
