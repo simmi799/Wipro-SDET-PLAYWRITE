@@ -295,3 +295,17 @@ Generic function getProperty<T, K extends keyof T>() to safely access object pro
 
 **  tsc --init to create tsconfig.json
 *** run Typescript -> ts-node filename.ts
+
+npx playwright test file.js  --> to run playwright
+
+Playwright is an open-source automation testing framework developed by Microsoft for web applications. It supports end-to-end testing across multiple browsers like Chromium, Firefox, and WebKit using a single API.
+
+*** Key features of Playwright include:
+Cross-browser testing
+Auto-wait functionality
+Parallel test execution
+Screenshot and video capture
+API testing support
+Headless and headed execution modes
+
+npx playwright test file.js  --> to run playwright
