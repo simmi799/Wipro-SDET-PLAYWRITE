@@ -285,3 +285,13 @@ transformation utility
 deep partial
 
 uppdate
+
+-----Typescript---------
+TypeScript is like a smart teacher sitting beside JavaScript.
+TypeScript is a programming language developed by Microsoft that is built on top of JavaScript.
+keyof operator to extract object keys as types
+typeof operator to create types from existing objects
+Generic function getProperty<T, K extends keyof T>() to safely access object properties with type checking.
+
+**  tsc --init to create tsconfig.json
+*** run Typescript -> ts-node filename.ts
