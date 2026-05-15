@@ -313,10 +313,13 @@ npx playwright test file.js  --> to run playwright
 npm init playwright@latest --> to install playwright
 
 npm install body-parser
- 
 npm install dotenv
- 
 npm install express
- 
 npm install path
+ Created .env file 
+    PORT = 3000
+Store configuration separately
  
+
+ 
+
