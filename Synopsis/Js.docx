@@ -320,6 +320,12 @@ npm install path
     PORT = 3000
 Store configuration separately
  
-
+export and import----------
  
 
+npx playwright test --project=chromium
+ cwd
+ playwright config file how to use it
+ path   --> librart in node js
+ process.cwd
+ reprter
