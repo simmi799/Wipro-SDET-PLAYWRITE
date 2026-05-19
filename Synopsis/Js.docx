@@ -329,3 +329,18 @@ npx playwright test --project=chromium
  path   --> librart in node js
  process.cwd
  reprter
+
+ npm playwright test --ui   --> to run ui
+ npx playwright codegen link  --> this give us code
+ then we need to test this code npx playwright test example.spec.js
+ then run npx playwright test in tha particular day
+ --debug   --> in debbug mode
+
+ test.skip  --> to skip the test case
+ test.fail --> want to fail this test case
+
+ test.slow = triple the timeout
+ test.step =>Divide test into steps
+
+ grouping 
+ dialogue
